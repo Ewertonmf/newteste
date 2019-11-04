@@ -1,0 +1,571 @@
+.home-page img {
+    width: 100%;
+    height: 450px;
+}
+.home-page {
+    position: relative;
+}
+
+/* texto foto da home */
+#texto {
+    position: absolute;
+    font-size: 32px;
+    left: 250px;
+    top: 135px;
+}
+.btn-primary-class {
+    color: white;
+    background-color: #007bff;
+}
+.img-thumbnail {
+    padding: 0.55rem;
+    background-color: #fff;
+    border: 8px solid #ced7e0;
+    border-radius: .25rem;
+    box-shadow: 0 1px 2px rgba(0,0,0,.075);
+    max-width: 100%;
+    height: auto;
+}
+.figure img{
+    margin-top: 20px;
+    width: 400px;
+    margin-right: 100px;
+    margin-left: 150px;
+}
+.figure-caption {
+    text-align: center;
+    font-size: 100%;
+    color: #000000;
+}
+@media only screen and (max-device-width: 767px) {
+    #texto { 
+        font-size: 21px;
+        text-align: center;
+        display: block!important;
+        left: auto;
+        top: auto;
+    } 
+    .home-page img {
+        width: 100%;
+        height: auto;
+    }
+}
+/* fim foto da home */
+
+/* parte dos botoes da home*/
+.title {
+    margin-left: 220px;
+    color: #0b80ff;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    line-height: 45px;
+    font-size: 25px;
+    margin-right: 220px;
+}
+@media only screen and (max-device-width: 1750px) {
+    .title { 
+        color: #0b80ff;
+        text-align: center;
+        margin-bottom: 30px;
+        margin-top: 30px;
+        line-height: 0px;
+        font-size: 0px;
+        margin-right: 0px;
+        margin-left: 0px;
+    } 
+}
+
+.title h2 span {
+    font-size: 40px;
+    color: #007bff;
+}
+.home-courses button{
+    margin-top: 10px;
+    margin-right: 25px;
+}
+.home-courses1 button{
+    margin-top: 10px;
+    margin-left: 25px;
+}
+/* fim parte dos botoes da home*/
+/* parte da home de comprar */
+.home-text-inf{
+    margin-left: 24%;
+}
+.home-inf img{
+    width: 149%; 
+}
+.card-text-txt{
+    font-size: 22px;
+    margin-top: 24px;
+    color: blue;
+}
+.home-button{
+    width: 280px;
+    margin-left: 20px;
+    height: 68px;
+}
+@media only screen and (max-device-width: 994px) {
+    .get-out{
+        display: none;
+
+    }  
+    .card-text-txt {
+        font-size: 18px;
+    }
+    .log-in{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+@media only screen and (min-device-width: 994px) {
+    .log-in{
+        display: none;
+    }  
+}
+.cell{
+    margin-left: 0px!important;
+    text-align: center;
+}
+/* final da parte da home de comprar */
+.home-promotion {
+    color: #fff;
+    background-color: #000;
+    padding-bottom: 30px;
+}
+.promotion-txt {
+    text-align: center;
+    font-size: 32px;
+    font-weight: 300;
+    line-height: 3.25;
+}
+.home-ad {
+    font-weight: 300;
+    font-size: 18px;
+    background-color: #fff;
+    color: #000;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,.4);
+    text-align: center;
+    padding: 40px 40px 60px;
+    max-width: 995px;
+    margin: 40px auto 80px;
+    width: auto;
+    position: relative;
+}
+
+
+.new-ad {
+    display: -webkit-box;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.ad-txt {
+    -webkit-box-flex: 1;
+    flex: 1 1 50%;
+    text-align: left;
+    margin-bottom: 20px;
+}
+.txt-home-ad li {
+    position: relative;
+    padding-left: 30px;
+    padding-top: 25px;
+}
+.txt-home-ad li:before {
+    position: absolute;
+    background: url(/uniceab/assets/img/correto.png) no-repeat 0/contain;
+    content: "";
+    display: inline-block;
+    top: 32px;
+    left: 0;
+    height: 15px;
+    width: 20px;
+}
+.txt-home-ad b {
+    font-weight: 700;
+}
+.pt2-home-ad {
+    font-size: 21.6px;
+    -webkit-box-flex: 1;
+    flex: 1 1 50%;
+    color: #333;
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    align-items: center;
+}
+.pt2-home-ad p:first-child {
+    margin-top: 20px;
+}
+.pt2-home-ad p {
+    padding: 0;
+    margin: 0 0 0px;
+}
+.pt2-txt{
+    text-transform: uppercase;
+}
+.pt3-txt {
+    text-transform: uppercase;
+}
+.price {
+    color: #3fd084;
+}
+.price2{
+    font-weight: 700;
+}
+.price3{
+    font-size: 42px;
+    font-weight: 700;
+}
+.price4{
+    color: red;
+}
+/*sliter home*/
+.sliter-home {
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.sliter {
+    height: 214px;
+    position: relative;
+    overflow: hidden;
+}
+.sliter-ul {
+    margin: 0;
+    padding: 0 15px;
+    list-style-type: none;
+    overflow-x: auto;
+    display: -webkit-box;
+    display: flex;
+    overflow-y: hidden;
+    height: calc(100% + 18px);
+}
+.sliter-li{
+    display: inline-block;
+    padding: 0 4px 0 5px;
+    min-width: -webkit-max-content;
+}
+.cajero-sliter {
+    width: 240px;
+    min-height: 214px;
+    display: inline-block;
+    position: relative;
+    border-radius: 2px;
+    overflow: hidden;
+    background-color: #fff;
+    box-shadow: 0 0 2px 0 rgba(0,0,0,.2), inset 0 -2px 0 0 rgba(0,0,0,.1);
+    text-align: left;
+}
+.cajero-new {
+    width: 100%;
+    position: relative;
+}
+.cajero-new .propiedad {
+    width: 100%;
+    height: 100%;
+    -webkit-transition: all .5s ease;
+    transition: all .5s ease;
+}
+
+.cajero-sliter .propiedad {
+    background: #9b9b9b no-repeat 50%/cover;
+    padding-top: 56.25%;
+}
+.cajero-sliter .propiedad:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 50%;
+    background: -webkit-gradient(linear,left top,left bottom,from(transparent),to(rgba(0,0,0,.75)));
+    background: linear-gradient(180deg,transparent,rgba(0,0,0,.75));
+}
+
+
+
+.new-propiedad {
+    font-size: 0;
+    opacity: .7;
+    background-image: url(/static/933d25f….svg);
+    margin: 5px 10px;
+    width: 40%;
+    padding-top: 10%;
+    background: no-repeat 0 100%/contain;
+    color: #fff;
+    text-align: center;
+    border-radius: 4px;
+    display: inline-block;
+    padding: 5px;
+    font-size: 10px;
+    font-weight: 700;
+    line-height: 1;
+    text-transform: uppercase;
+    position: absolute;
+    bottom: 4px;
+    left: 4px;
+}
+.propiedad-txt {
+    font-size: 12px;
+    font-weight: 500;
+    color: #333;
+    margin: 8px 8px 10px;
+    height: 32px;
+    line-height: 16px;
+    overflow: hidden;
+}
+.propiedad-txt1 {
+    height: 14px;
+    overflow: hidden;
+    font-size: 12px;
+    color: #9b9b9b;
+    line-height: 14px;
+    margin: 16px 54px 10px 10px;
+}
+
+
+.sliter-a{
+    background-color: #f03;
+    text-decoration: none;
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    width: 240px;
+    height: 214px;
+    border-radius: 2px;
+    box-shadow: 0 0 2px 0 rgba(0,0,0,.2), inset 0 -2px 0 0 rgba(0,0,0,.1);
+    overflow: hidden;
+}
+.sliter-p{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.25;
+    text-align: center;
+    padding: 0 60px;
+    color: #fff;
+    margin: 0;
+    height: 100%;
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+}
+.sliter-p:before {
+    display: block;
+    margin-bottom: 14px;
+    content: url(/static/6ec2008….svg);
+}
+.sliter-button {
+    height: 100%;
+    width: 40px;
+    position: absolute;
+    -webkit-transition: opacity .5s ease-out;
+    transition: opacity .5s ease-out;
+    opacity: 0;
+    padding: 0;
+    left: 0;
+    top: 0;
+    background: -webkit-gradient(linear,right top,left top,from(transparent),to(#6b6b6b));
+    background: linear-gradient(270deg,transparent,#6b6b6b);
+    border: none;
+}
+.sliter-button:before {
+    width: 100%;
+    height: 24px;
+    content: " ";
+    display: block;
+    background: no-repeat 50% url(/uniceab/assets/img/next.png);
+}
+.sliter-button-new {
+    height: 100%;
+    position: absolute;
+    right: 0;
+    padding: 0;
+    -webkit-transition: opacity .5s ease-out;
+    transition: opacity .5s ease-out;
+    top: 0;
+    width: 40px;
+    background: -webkit-gradient(linear,left top,right top,from(transparent),to(#6b6b6b));
+    background: linear-gradient(90deg,transparent,#6b6b6b);
+    border: none;
+}
+.sliter-button-new:before {
+    width: 100%;
+    height: 24px;
+    content: " ";
+    display: block;
+    background: no-repeat 50% url(/uniceab/assets/img/next.png);
+}
+/*cursos*/
+.card{
+    margin-right: 16px;
+    display: inline-block;
+    margin-left: 30px;
+}
+.cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+.card-details{
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-bottom: 68px;
+}
+.jumbotron{
+    background-color: #000000cc;
+    margin-left: 10%;
+    text-align: center;
+    width: 80%;
+    color: white;
+}
+body {
+    position: relative;
+}
+/* parte dos cursos*/
+.card-courses{
+    width: 20%;
+}
+
+@media only screen and (max-device-width: 994px) {
+    .card-courses { 
+        width: auto;
+    } 
+}
+/* detalhes do curso */
+.txt-video{
+    margin-left: 184px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.video{
+    width: 80%;
+}
+@media only screen and (max-device-width: 994px) {
+    .txt-video { 
+        margin-left: auto;
+        margin-top: auto;
+        margin-bottom: auto;
+    } 
+    .video{
+        width: auto;
+    }
+}
+/* categoria do curso */
+.collection-courses{
+    margin-top: 50px;
+}
+.size-categories{
+    left: 80px;
+    margin-top: 5%;
+    width: 22%;
+    margin-left: 14px;
+    height: 115px;
+}
+.txt_categories{
+    font-size: 19px;
+}
+.button-categories{
+    position: absolute;
+    top: 42%;
+    left: 84%;
+    transform: translate(-50%, -50%);
+    display: inline-block;
+}
+@media only screen and (max-device-width: 767px) {
+    .txt-category{
+        font-size: 21px !important;
+        text-align: center !important;
+        display: block!important;
+        left: 61px !important;
+        top: 65px !important;
+    }
+    img-category img{
+        margin-bottom: 0px;
+    }
+
+}
+
+
+@media only screen and (max-device-width: 1341px) {
+    .size-categories{
+        left: auto;
+        margin-top: auto;
+        width: auto;
+        margin-left: auto;
+        height: auto;
+    }
+    .txt_categories{
+        font-size: auto;
+    }
+    .button-categories {
+        position: inherit;
+        transform: translate(0%, 0%);
+        display: block;
+        top: 0%;
+        left: 0%;
+    }
+}
+/* parte do usuario */
+.card-user{
+    margin-top: 21px;
+    margin-right: 16px;
+    display: block !important;
+    margin-left: 30px;
+}
+/* video */
+.video{
+    margin-top: 50px !important;
+    margin-bottom: 20px !important;
+}
+.video-progress{
+    border-radius: 20px !important;
+    width: 23% !important;
+    margin-left: 20px !important;
+}
+.video-btn{
+    margin-left: 85% ;
+    margin-top: -70px;
+}
+.doubt-video{
+    margin-left: 20px;
+    width: 100%;
+    margin-top: 19px;
+    margin-bottom: 0px;
+    height: 118px;
+}
+.txt-doubt h3{
+    margin-left: 16px;
+    margin-top: 20px;
+}
+
+
+@media only screen and (max-device-width: 758px) {
+    .video-btn{
+        margin-left: 20px;
+        margin-bottom: 20px;
+        margin-top: 0px;
+    }
+}
+/*meus cursos*/
+.curses-progress{
+    height: 19px;
+}
+.my-curses{
+    margin-top: 35px;
+}
+
+
+
